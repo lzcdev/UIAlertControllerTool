@@ -52,8 +52,8 @@
 		20B0406E1D115D48003C549F /* UIAlertControllerToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIAlertControllerToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20B040721D115D48003C549F /* UIAlertControllerToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIAlertControllerToolUITests.m; sourceTree = "<group>"; };
 		20B040741D115D48003C549F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20B040801D115D5D003C549F /* UIAlertControllerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIAlertControllerTool.h; sourceTree = "<group>"; };
-		20B040811D115D5D003C549F /* UIAlertControllerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIAlertControllerTool.m; sourceTree = "<group>"; };
+		20B040801D115D5D003C549F /* UIAlertControllerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIAlertControllerTool.h; path = UIAlertControllerTool/UIAlertControllerTool.h; sourceTree = "<group>"; };
+		20B040811D115D5D003C549F /* UIAlertControllerTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIAlertControllerTool.m; path = UIAlertControllerTool/UIAlertControllerTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +84,8 @@
 		20B040411D115D48003C549F = {
 			isa = PBXGroup;
 			children = (
+				20B040801D115D5D003C549F /* UIAlertControllerTool.h */,
+				20B040811D115D5D003C549F /* UIAlertControllerTool.m */,
 				20B0404C1D115D48003C549F /* UIAlertControllerTool */,
 				20B040661D115D48003C549F /* UIAlertControllerToolTests */,
 				20B040711D115D48003C549F /* UIAlertControllerToolUITests */,
@@ -108,8 +110,6 @@
 				20B040511D115D48003C549F /* AppDelegate.m */,
 				20B040531D115D48003C549F /* ViewController.h */,
 				20B040541D115D48003C549F /* ViewController.m */,
-				20B040801D115D5D003C549F /* UIAlertControllerTool.h */,
-				20B040811D115D5D003C549F /* UIAlertControllerTool.m */,
 				20B040561D115D48003C549F /* Main.storyboard */,
 				20B040591D115D48003C549F /* Assets.xcassets */,
 				20B0405B1D115D48003C549F /* LaunchScreen.storyboard */,
